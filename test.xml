@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote
+		name="origin"
+		fetch="git://github.com/" />
+	<default
+		revision="master"
+		remote="origin"
+		sync-c="true"
+		sync-j="4" />
+
+	<!-- OsmAnd -->
+	<project path="core" name="Zahnstocher/OsmAnd-core.git" revision="legacy_core" />
+	<project path="android" name="Zahnstocher/Osmand.git" revision="master"/>
+	<project path="resources" name="Zahnstocher/OsmAnd-resources.git" revision="master" />
+</manifest>
